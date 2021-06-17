@@ -1,0 +1,16 @@
+{
+  "name": "ansi_9.19_implementation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conversionUtils.js",
+  "scripts": {
+    "test": "./node_modules/mocha ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^3.5.0"
+  }
+}
