@@ -6,8 +6,8 @@ const {
 } = require('./conversionUtils')
 const {assert} = require('chai')
 const macKey = 'F5F2F4F8F6B6A3FDADCDDDABBDFABDBA'
-const leftPartOfKey = 'F5F2F4F8F6B6A3FD'
-const rightPartOfKey = 'ADCDDDABBDFABDBA'
+const leftPartOfKey = macKey.substr(0,16)
+const rightPartOfKey = macKey.substr(16,32)
 
 describe('test convertHexToBytArray()', () => {
   it('should return correct byteArray', function () {
